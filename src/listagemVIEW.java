@@ -144,9 +144,9 @@ public class listagemVIEW extends javax.swing.JFrame {
         listarProdutos();
     }//GEN-LAST:event_btnVenderActionPerformed
 
-    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
-        //vendasVIEW vendas = new vendasVIEW(); 
-        //vendas.setVisible(true);
+    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {
+        vendasVIEW vendas = new vendasVIEW(); 
+        vendas.setVisible(true); // This will now work
     }//GEN-LAST:event_btnVendasActionPerformed
 
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
